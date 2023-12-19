@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -400,7 +400,7 @@ if(isCreator && text != "")
           urll = aliv.url || await botpic() ;
 
           
-const alivtxt = `${alivemessage}\n\n*_Type ${prefix}menu For My Commands list._*\n*_I am Multi-Device Whatsapp Bot Created By MAHER ZUBAIR_*\n*_For Any Help_*\n*_Join Support:  ${sgc}_*`;
+const alivtxt = `${alivemessage}\n\n*_Type ${prefix}menu For My Commands list._*\n*_I am Multi-Device Whatsapp Bot Created By Astropeda_*\n*_For Any Help_*\n*_Join Support:  ${sgc}_*`;
  const messageOptions = image ? { image: { url: urll }, caption: alivtxt }
                         : video? { video: { url: urll },gifPlayback: true, caption: alivtxt }
                         : { image: { url: await botpic() }, caption: alivtxt };
@@ -410,6 +410,6 @@ const alivtxt = `${alivemessage}\n\n*_Type ${prefix}menu For My Commands list._*
     )
 
 
-// All These System Commands Are Developed By @Maher-Zubair
+// All These System Commands Are Developed By @Astropeda
 // Whatsapp +923466319114
 // Usage And CopyRights Are Reserved

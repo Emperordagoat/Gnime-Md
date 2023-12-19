@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -237,7 +237,7 @@ await sleep(1000)
 
     )
 
-// These Fun Commands are Developed By @Maher-Zubair
+// These Fun Commands are Developed By @Astropeda
 // Whatsapp +923466319114
 // Usage And CopyRights Are Reserved
 

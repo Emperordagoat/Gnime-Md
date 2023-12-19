@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -139,7 +139,7 @@ Module_Exports({
             Void.sendMessage(
                 man.chat, {
                     image: { url: r.urlToImage },
-                    caption: `*Title:* ${r.title}\n\n*Content:* ${r.content}\n*Author:* ${r.author}\n*Source:* ${r.source.name}\n*Created On:* ${r.publishedAt}\n*More on:* ${r.url}\n\n*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•* sɪɢᴍᴀ ᴹᴰ`,
+                    caption: `*Title:* ${r.title}\n\n*Content:* ${r.content}\n*Author:* ${r.author}\n*Source:* ${r.source.name}\n*Created On:* ${r.publishedAt}\n*More on:* ${r.url}\n\n*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•* ɢɴɪᴍᴇ ᴍᴅ`,
                 }, {
                     quoted: man,
                 }
@@ -294,7 +294,7 @@ Module_Exports({
 },
 async(Void, man,text) =>
 {
-    let anu = await fetchJson('https://raw.githubusercontent.com/Maher-Zubair/SIGMA-MD/main/Media/WallPapers/husbu.json')
+    let anu = await fetchJson('https://raw.githubusercontent.com/Astropeda/Gnime-Md/main/Media/WallPapers/husbu.json')
     let random = anu[Math.floor(Math.random() * anu.length)]
     return await Void.sendMessage(man.chat,{image :{url : random } , caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${sigma_config.botname}*`  }, { quoted: man })
 })
@@ -311,7 +311,7 @@ Module_Exports({
 },
 async(Void, man,text) =>
 {
-    let anu = await fetchJson('https://raw.githubusercontent.com/Maher-Zubair/SIGMA-MD/main/Media/Videos/Tik_Videos.json')
+    let anu = await fetchJson('https://raw.githubusercontent.com/Astropeda/Gnime-Md/main/Media/Videos/Tik_Videos.json')
     let random = anu[Math.floor(Math.random() * anu.length)]
     return await Void.sendMessage(man.chat,{video :{url : random.SIGMA_MD } , caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${sigma_config.botname}*`,width: 600,height: 490  }, { quoted: man })
 })
@@ -324,7 +324,7 @@ Module_Exports({
 },
 async(Void, man,text) =>
 {
-    let anu = await fetchJson('https://raw.githubusercontent.com/Maher-Zubair/SIGMA-MD/main/Media/WallPapers/shota.json')
+    let anu = await fetchJson('https://raw.githubusercontent.com/Astropeda/Gnime-Md/main/Media/WallPapers/shota.json')
     let random = anu[Math.floor(Math.random() * anu.length)]
     return await Void.sendMessage(man.chat,{image :{url : random } , caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${sigma_config.botname}*`  }, { quoted: man })
 })

@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -427,7 +427,7 @@ default:
         person.reply(`Please provide direction(left,right,up,down).\nEg:- ${prefix}gamble 200 left`)
     }
    let media = await getBuffer(hjkl)
-   person.reply(media,{packname:'sɪɢᴍᴀ ᴹᴰ',author:'Zubair'},"sticker")
+   person.reply(media,{packname:'ɢɴɪᴍᴇ ᴍᴅ',author:'Zubair'},"sticker")
      const f = ["up", "right", "left", "down", "up", "left", "down", "right", "up", "down", "right", "left"]
      const r = f[Math.floor(Math.random () * f.length)]
      if (!text) return person.reply(
@@ -650,6 +650,6 @@ return await person.reply(str+` ${deduff}.`)
 }
 ) 
 
-//  This Economy is Developed By @Maher-Zubair
+//  This Economy is Developed By @Astropeda
 //  Whatsapp +923466319114
 //  Usage And CopyRights Are Reserved 

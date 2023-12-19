@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -121,6 +121,6 @@ async(sigma, man, text) => {
 })
 //=============================================================================
 
-//  All These Photo Editors are Developed By @Maher-Zubair
+//  All These Photo Editors are Developed By @Astropeda
 //  Whatsapp +923466319114
 //  Usage And CopyRights Are Reserved 

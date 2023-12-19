@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -381,7 +381,7 @@ Module_Exports({
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return citel.send(img,{packname:name.packname,author:'Maher Zubair'},"sticker")
+            return citel.send(img,{packname:name.packname,author:'Astropeda'},"sticker")
 
         }
     )
@@ -494,7 +494,7 @@ Module_Exports({
 async(Void, citel,text) => { 
 if (!text) { text=citel.quoted.text;}
     if(!text) return citel.reply('*_Please Reply To Any Text To Get Link._*');
-    let data = await pastebin.createPaste(text, "Maher Zubair");
+    let data = await pastebin.createPaste(text, "Astropeda");
     return citel.reply(`*_Here is your link._*\n`+data+`\n${sgen}`);
 }
 );
@@ -507,7 +507,7 @@ Module_Exports({
 },
 async(Void, citel,text) => {
 let a = citel.quoted ? citel.quoted.text : citel.text;
-let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=SIGMA-MD+Bot&author_name=Maher_Zubair&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
+let { data } = await axios.get(`https://api.telegra.ph/createPage?access_token=d3b25feccb89e508a9114afb82aa421fe2a9712b963b387cc5ad71e58722&title=Gnime-Md+Bot&author_name=Maher_Zubair&content=[%7B"tag":"p","children":["${a.replace(/ /g,'+')}"]%7D]&return_content=true`);
 return citel.reply(`*Paste created on telegraph*\nName:${util.format(data.result.title)} \nUrl: ${util.format(data.result.url)}`)
 }
 );

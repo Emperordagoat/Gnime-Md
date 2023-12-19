@@ -11,7 +11,7 @@
 //              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
 //              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
 //                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
+//                                          BY:Astropeda                                             //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -25,17 +25,17 @@ async function singleText(Void, citel , url = '' , text1 , text2 ){
 
 //-----------------------------------------------------------------------------------
 Module_Exports({ kingcmd: "slice", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
-        if (!text) return citel.reply(`*_Example : ${prefix}slice Maher Zubair_*`);
+        if (!text) return citel.reply(`*_Example : ${prefix}slice Astropeda_*`);
         return await singleText(Void, citel , 'create-light-glow-sliced-text-effect-online-1068' , text )
     })
 //-----------------------------------------------------------------------------------
 Module_Exports({ kingcmd: "glow", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
-        if (!text) return citel.reply(`*_Example : ${prefix}glow Maher Zubair_*`);
+        if (!text) return citel.reply(`*_Example : ${prefix}glow Astropeda_*`);
         return await singleText(Void, citel , 'free-advanced-glow-text-effect-873' , text )
     })
 //----------------------------------------------------------------------------------- 
 Module_Exports({ kingcmd: "glittch", kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
-        if (!text) return citel.reply(`*_Example : ${prefix}glittch Maher Zubair_*`);
+        if (!text) return citel.reply(`*_Example : ${prefix}glittch Astropeda_*`);
         return await singleText(Void, citel , 'create-impressive-glitch-text-effects-online-1027' , text )        
     }) 
 //---------------------------------------------------------------------------
@@ -302,6 +302,6 @@ Module_Exports({ kingcmd: "black", kingclass: "logo", infocmd: "Some text to ima
                 if (!text) return citel.reply(`*_Example: ${prefix}black Zubair_*`)
                 return await singleText(Void, citel , 'shiny-black-3d-text-effect-generator-1143' , text )})
 
-//  All These Logos are Developed By @Maher-Zubair
+//  All These Logos are Developed By @Astropeda
 //  Whatsapp +923466319114
 //  Usage And CopyRights Are Reserved 
