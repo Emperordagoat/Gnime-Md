@@ -139,7 +139,7 @@ Module_Exports({
             Void.sendMessage(
                 man.chat, {
                     image: { url: r.urlToImage },
-                    caption: `*Title:* ${r.title}\n\n*Content:* ${r.content}\n*Author:* ${r.author}\n*Source:* ${r.source.name}\n*Created On:* ${r.publishedAt}\n*More on:* ${r.url}\n\n*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•* ɢɴɪᴍᴇ ᴍᴅ`,
+                    caption: `*Title:* ${r.title}\n\n*Content:* ${r.content}\n*Author:* ${r.author}\n*Source:* ${r.source.name}\n*Created On:* ${r.publishedAt}\n*More on:* ${r.url}\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ* ɢɴɪᴍᴇ ᴍᴅ`,
                 }, {
                     quoted: man,
                 }
