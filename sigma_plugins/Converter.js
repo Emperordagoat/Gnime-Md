@@ -1,21 +1,4 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════// 
-//                                                                                                      //
-//                                   MULTI-DEVICE WHATSAPP BOT                                          //
-//                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
-//                                                                                                      //
-//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
-//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
-//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
-//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
-//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
-//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
-//                                                                                                      //
-//                                          BY:Astropeda                                             //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-
 const axios = require('axios')
 const { sck1, tiny, fancytext,getBuffer, listall,Module_Exports , TelegraPh , name,prefix} = require('../lib')
 const fs = require('fs-extra');
@@ -390,16 +373,16 @@ Module_Exports({
             kingcmd: "fancy",
             infocmd: "Makes stylish/fancy given text",
             kingclass: "converter",
-            use: '56 SIGMA MD',
+            use: '56 GNIME MD',
             //react: "✅",
             kingpath: __filename
         },
         async(sigma, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    `*_fancy text generator_*\n★━━━━━━━━━━━━━━━━━━━━━★\n*example: ${prefix}fancy 32 _i am sigma male_*\n★━━━━━━━━━━━━━━━━━━━━━★\n\n`
+                    `*_fancy text generator_*\n★━━━━━━━━━━━━━━━━━━━━━★\n*example: ${prefix}fancy 32 _gnime md_*\n★━━━━━━━━━━━━━━━━━━━━━★\n\n`
                 );
-                listall("SIGMA MD").forEach((txt, num) => {
+                listall("GNIME MD").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
@@ -412,7 +395,7 @@ Module_Exports({
     )
     //---------------------------------------------------------------------------
 Module_Exports({
-            kingcmd: "tiny",
+            kingcmd: "tinyurl",
             infocmd: "Makes url tiny.",
             kingclass: "converter",
             use: 'www.google.com',
@@ -478,7 +461,7 @@ async(sigma, citel, text) => {
     let media = await sigma.downloadAndSaveMediaMessage(citel.quoted)
     try {
         if (/webp/.test(mimetype)) {  let webpToMp4 = await webp2mp4File(media);  media =  webpToMp4.result; }
-        await sigma.sendMessage(citel.chat, { video: { url: media ,}, caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`  },)
+        await sigma.sendMessage(citel.chat, { video: { url: media ,}, caption: `*╰┈➤ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ɢɴɪᴍᴇ ${name.botname}*`  },)
         try{ return await fs.unlink(media);}catch(e){ return console.log("Error While Deleting Tomp4 File :  ", e)}
     }catch(e){ return console.log("*Your Request Not Be Proceed due to Error.*  \n*_Error :_* ", e)}
 }

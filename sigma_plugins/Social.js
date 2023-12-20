@@ -1,21 +1,4 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════// 
-//                                                                                                      //
-//                                   MULTI-DEVICE WHATSAPP BOT                                          //
-//                                                                                                      //
-//                                           𝚅.𝟷.𝟸.𝟽                                                   // 
-//                                                                                                      //
-//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
-//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
-//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
-//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
-//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
-//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
-//                                                                                                      //
-//                                          BY:Astropeda                                             //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-
 const {Module_Exports , name , prefix,getBuffer,tlang,fetchJson } = require('../lib')
 const fetch = require('node-fetch');
 const bocil = require('@bochilteam/scraper');
@@ -23,7 +6,7 @@ const cheerio = require('cheerio')
 const axios= require('axios');
 
 Module_Exports({
-    kingcmd: "insta",
+    kingcmd: "instagram",
     shortcut: ["ig","igdl","instagram"],
     infocmd: "download instagram videos",
     kingclass: "downloader",
@@ -87,6 +70,6 @@ Module_Exports({
             if (!/tiktok/.test(txt)) return await person.reply(`*_Please give me valid tiktok video link..!_*`);
             const { status ,thumbnail, video, audio } = await tiktokdl(txt)
             //console.log("url : " , video  ,"\nThumbnail : " , thumbnail ,"\n Audio url : " , audio )
-            if (status) return await sigma.sendMessage(person.chat, {video : {url : video } ,caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`,height: 470,width: 540,  } , {quoted : person });
+            if (status) return await sigma.sendMessage(person.chat, {video : {url : video } ,caption: `*╰┈➤ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ɢɴɪᴍᴇ ${name.botname}*`,height: 470,width: 540,  } , {quoted : person });
             else return await person.reply("Error while downloading your video") 
         })           

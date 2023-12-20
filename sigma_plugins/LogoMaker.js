@@ -1,25 +1,8 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════// 
-//                                                                                                      //
-//                                   MULTI-DEVICE WHATSAPP BOT                                          //
-//                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
-//                                                                                                      //
-//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
-//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
-//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
-//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
-//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
-//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
-//                                                                                                      //
-//                                          BY:Astropeda                                             //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-
 let { tiny,  prefix,  Module_Exports,  getBuffer,name  } = require("../lib");
 //========================================================================================================
 async function singleText(Void, citel , url = '' , text1 , text2 ){
-    const _0x369e3b=_0x5b0f;(function(_0x243142,_0x573730){const _0x2c040a=_0x5b0f,_0x49c469=_0x243142();while(!![]){try{const _0x23b873=-parseInt(_0x2c040a(0x1aa))/0x1+parseInt(_0x2c040a(0x1a3))/0x2+-parseInt(_0x2c040a(0x1a7))/0x3*(parseInt(_0x2c040a(0x1a4))/0x4)+parseInt(_0x2c040a(0x1a9))/0x5+-parseInt(_0x2c040a(0x19f))/0x6*(parseInt(_0x2c040a(0x1a1))/0x7)+parseInt(_0x2c040a(0x1a6))/0x8*(parseInt(_0x2c040a(0x1a5))/0x9)+-parseInt(_0x2c040a(0x19c))/0xa;if(_0x23b873===_0x573730)break;else _0x49c469['push'](_0x49c469['shift']());}catch(_0x473a48){_0x49c469['push'](_0x49c469['shift']());}}}(_0xb69c,0x7c465));function _0xb69c(){const _0x4d1386=['mumaker','*_Error\x20while\x20Generating\x20Your\x20Photo_*','65330cKdpnt','.html','error\x20For\x20TextPro\x20:\x20','29586xxrpiu','https://textpro.me/','119TGEesl','caption','1450616vOHMzo','1644RZJhcL','6105816IoLRZZ','8SAfiCS','2802NxQUUH','log','309735ebjXle','482416jsInja','textpro'];_0xb69c=function(){return _0x4d1386;};return _0xb69c();}const maker=require(_0x369e3b(0x19a));function _0x5b0f(_0x3d9a0c,_0x1d2daf){const _0xb69caa=_0xb69c();return _0x5b0f=function(_0x5b0feb,_0x14d3ff){_0x5b0feb=_0x5b0feb-0x19a;let _0x240a04=_0xb69caa[_0x5b0feb];return _0x240a04;},_0x5b0f(_0x3d9a0c,_0x1d2daf);}try{let anu,urlss=_0x369e3b(0x1a0)+url+_0x369e3b(0x19d);if(text1&&!text2)anu=await maker[_0x369e3b(0x1ab)](urlss,text1);else text1&&text2&&(anu=await maker[_0x369e3b(0x1ab)](urlss,[text1,text2]));return await Void['sendMessage'](citel['chat'],{'image':{'url':anu['image']},'caption':`*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${name.botname}*`},{'quoted':citel});}catch(_0x450f19){return console[_0x369e3b(0x1a8)](_0x369e3b(0x19e),_0x450f19),await citel['send'](_0x369e3b(0x19b));}
+    const _0x369e3b=_0x5b0f;(function(_0x243142,_0x573730){const _0x2c040a=_0x5b0f,_0x49c469=_0x243142();while(!![]){try{const _0x23b873=-parseInt(_0x2c040a(0x1aa))/0x1+parseInt(_0x2c040a(0x1a3))/0x2+-parseInt(_0x2c040a(0x1a7))/0x3*(parseInt(_0x2c040a(0x1a4))/0x4)+parseInt(_0x2c040a(0x1a9))/0x5+-parseInt(_0x2c040a(0x19f))/0x6*(parseInt(_0x2c040a(0x1a1))/0x7)+parseInt(_0x2c040a(0x1a6))/0x8*(parseInt(_0x2c040a(0x1a5))/0x9)+-parseInt(_0x2c040a(0x19c))/0xa;if(_0x23b873===_0x573730)break;else _0x49c469['push'](_0x49c469['shift']());}catch(_0x473a48){_0x49c469['push'](_0x49c469['shift']());}}}(_0xb69c,0x7c465));function _0xb69c(){const _0x4d1386=['mumaker','*_Error\x20while\x20Generating\x20Your\x20Photo_*','65330cKdpnt','.html','error\x20For\x20TextPro\x20:\x20','29586xxrpiu','https://textpro.me/','119TGEesl','caption','1450616vOHMzo','1644RZJhcL','6105816IoLRZZ','8SAfiCS','2802NxQUUH','log','309735ebjXle','482416jsInja','textpro'];_0xb69c=function(){return _0x4d1386;};return _0xb69c();}const maker=require(_0x369e3b(0x19a));function _0x5b0f(_0x3d9a0c,_0x1d2daf){const _0xb69caa=_0xb69c();return _0x5b0f=function(_0x5b0feb,_0x14d3ff){_0x5b0feb=_0x5b0feb-0x19a;let _0x240a04=_0xb69caa[_0x5b0feb];return _0x240a04;},_0x5b0f(_0x3d9a0c,_0x1d2daf);}try{let anu,urlss=_0x369e3b(0x1a0)+url+_0x369e3b(0x19d);if(text1&&!text2)anu=await maker[_0x369e3b(0x1ab)](urlss,text1);else text1&&text2&&(anu=await maker[_0x369e3b(0x1ab)](urlss,[text1,text2]));return await Void['sendMessage'](citel['chat'],{'image':{'url':anu['image']},'caption':`*╰┈➤ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ɢɴɪᴍᴇ ${name.botname}*`},{'quoted':citel});}catch(_0x450f19){return console[_0x369e3b(0x1a8)](_0x369e3b(0x19e),_0x450f19),await citel['send'](_0x369e3b(0x19b));}
 }
 //========================================================================================================
 
@@ -64,13 +47,6 @@ Module_Exports({ kingcmd: "marvel",kingclass: "logo", infocmd: "Some text to ima
             return await singleText(Void, citel , 'create-logo-style-marvel-studios-ver-metal-972' , text1 , text2 )
         })
 //-----------------------------------------------------------------------------------
-Module_Exports({ kingcmd: "phub",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {
-            if (!text) return citel.reply(`*_Example : ${prefix}phub Maher;Zubair_*`);  
-            let text1 = text ? text.split(';')[0] : '';
-            let text2 = text ? text.split(';')[1] : '';
-            if(!text2 || !text1) return await citel.reply(`*Please Provide text. Example: ${prefix}phub text1;text2*`);
-            return await singleText(Void, citel , 'pornhub-style-logo-online-generator-free-977' , text1 , text2 )
-        })
 //-----------------------------------------------------------------------------------
 
 Module_Exports({ kingcmd: "glitch3",kingclass: "logo", infocmd: "Some text to image feature with various styles.",kingpath: __filename, }, async(Void, citel, text) => {

@@ -1,22 +1,5 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════// 
-//                                                                                                      //
-//                                   MULTI-DEVICE WHATSAPP BOT                                          //
-//                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
-//                                                                                                      //
-//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
-//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
-//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
-//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
-//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
-//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
-//                                                                                                      //
-//                                          BY:Astropeda                                             //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
- 
- const {tlang, getAdmin, prefix, name, sck,sck1, fetchJson,getBuffer, runtime,Module_Exports } = require('../lib')
+const {tlang, getAdmin, prefix, name, sck,sck1, fetchJson,getBuffer, runtime,Module_Exports } = require('../lib')
  let { dBinary, eBinary } = require("../lib/binary");
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
  const fs = require('fs')
@@ -47,7 +30,7 @@ async(Void, citel, text,{ isCreator }) => {
       let num = citel.sender;
   
       var welcome_messages = text.replace(/@pp/g, '').replace(/@user/gi, `@${num.split("@")[0]}`).replace(/@gname/gi, metadata.subject).replace(/@desc/gi, metadata.desc);
-      try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://telegra.ph/file/93f1e7e8a1d7c4486df9e.jpg' ; }
+      try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://leadier-umbrellas.000webhostapp.com/Gnime-logos.jpeg' ; }
       return await Void.sendMessage(citel.chat, { image: { url: ppuser }, caption: welcome_messages,} )
 
 
@@ -85,7 +68,7 @@ async(Void, citel, text,{ isCreator }) => {
     var ppuser;
     let num = citel.sender;
     var goodbye_messages = text.replace(/@pp/g, '').replace(/@user/gi, `@${num.split("@")[0]}`).replace(/@gname/gi, metadata.subject).replace(/@desc/gi, metadata.desc);
-    try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://telegra.ph/file/93f1e7e8a1d7c4486df9e.jpg' ; }
+    try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://leadier-umbrellas.000webhostapp.com/Gnime-logos.jpeg' ; }
 
         return await Void.sendMessage(citel.chat, { image: { url: ppuser }, caption: goodbye_messages, })
 
@@ -244,7 +227,7 @@ async(sigma, person, memo) => {
     var num = person.quoted.sender.split('@')[0];
     let pfp;
     try  {  pfp = await sigma.profilePictureUrl(person.quoted.sender, "image"); } 
-    catch (e) { pfp = await sigma.profilePictureUrl(person.sender, "image") ||  'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg' ; }    //|| 'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg' ;  }
+    catch (e) { pfp = await sigma.profilePictureUrl(person.sender, "image") ||  'https://leadier-umbrellas.000webhostapp.com/Gnime-logos.jpeg' ; }    //|| 'https://leadier-umbrellas.000webhostapp.com/Gnime-logos.jpeg' ;  }
     
     let username = await sck1.findOne({ id: person.quoted.sender });
     var tname = username.name;
@@ -371,7 +354,7 @@ const vcard = 'BEGIN:VCARD\n' +
      )
      //---------------------------------------------------------------------------
  Module_Exports({
-             kingcmd: "mee",
+             kingcmd: "wame",
              infocmd: "Makes wa me for user.",
              kingclass: "user",
              kingpath: __filename
@@ -402,29 +385,6 @@ const vcard = 'BEGIN:VCARD\n' +
          }
      )
      //---------------------------------------------------------------------------
- Module_Exports({
-             kingcmd: "cnsfw",
-             infocmd: "activates and deactivates nsfw.\nuse buttons to toggle.",
-             kingclass: "misc",
-             kingpath: __filename
-         },
-         async(Void, citel, text,{isCreator}) => {
-             let checkgroup = await sck.findOne({ id: citel.chat })
-             if (!citel.isGroup) return citel.reply(tlang().group);
-             const groupAdmins = await getAdmin(Void, citel)
-             //const botNumber = await Void.decodeJid(Void.user.id)
-            // const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
-             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
-             if(isCreator){}
-  else if (!isAdmins) return citel.reply(tlang().admin)
-             //if (!isBotAdmins) return citel.reply(tlang().botadmin)
-            
-  
-  
-             if (checkgroup.nsfw == "true") return citel.reply(`*_NSFW is Enabled in This Current Chat_*\n*_To Deactive 18+ Commands type ${prefix}deact nsfw_*`);
-             else return citel.reply(`*_NSFW is Disabled in This Current Chat_*\n*_To Active 18+ Commands type ${prefix}act nsfw_*`);
- }
-     )
      //---------------------------------------------------------------------------
  Module_Exports({
              kingcmd: "npm",
@@ -553,7 +513,7 @@ const buffer = await sticker.toBuffer();
  
 
  Module_Exports({
-             kingcmd: "sigmabot",
+             kingcmd: "gnimebot",
              shortcut : ["chatbot","sbot","sigmachatbot"],
              infocmd: "activates and deactivates chatbot.\nuse buttons to toggle.",
              kingclass: "misc",
@@ -567,22 +527,22 @@ const buffer = await sticker.toBuffer();
              {
                  case "on":
                      {
-                         if (chatbott.worktype == "true") return citel.reply("*_SIGMA Chatbot is Already Enabled_*")
+                         if (chatbott.worktype == "true") return citel.reply("*_GNIME Chatbot is Already Enabled_*")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
-                         return await citel.reply('*_SIGMA Chatbot Activated successfully._*')   
+                         return await citel.reply('*_GNIME Chatbot Activated successfully._*')   
                      }
                      break
                  case "off":
                      {
-                                if (chatbott.worktype == "false") return citel.reply("*_SIGMA ChatBot is Already Disabled._*")
+                                if (chatbott.worktype == "false") return citel.reply("*_GNIME ChatBot is Already Disabled._*")
                                 await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
-                                return await citel.reply('*_SIGMA Chatbot Deactivated Successfully._*')
+                                return await citel.reply('*_GNIME Chatbot Deactivated Successfully._*')
                      }
                      break
                  default:
                      {
                         if (chatbott.worktype == "false") return await citel.reply(`*_SIGMA Chatbot Status: Disabled_* \n*_To Enable Type: ${prefix}sbot on_*`)
-                        else return await citel.reply(`*SIGMA Chatbot Status: Enabled* \n*_To Disable Type : ${prefix}sbot off_*`)
+                        else return await citel.reply(`*GNIME Chatbot Status: Enabled* \n*_To Disable Type : ${prefix}sbot off_*`)
                         
                      }
              }
@@ -695,7 +655,7 @@ async(Void, citel, text,{isCreator}) => {
 })   
 } // if Statements
      //---------------------------------------------------------------------------
- /*
+ 
  Module_Exports({
              kingcmd: "antispam",
              infocmd: "Kick Spamers From Group.\nuse buttons to toggle.",
@@ -729,7 +689,6 @@ if (checkgroup.antispam == "true") return citel.reply(`Antispam : kick Users Who
 else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispam is Disabled in this Group \n *_For Enablling Antispam : ${prefix}antispam on_*`);
          
  })
- */
      //---------------------------------------------------------------------------
      Module_Exports({
         kingcmd: "antilink",
@@ -769,6 +728,4 @@ else return citel.reply(`Antispam : kick Users Who Spamming in Groupn\n\nAntispa
  
  })
 
- // All These Misc Commamnds Are Developed By @Astropeda
- // Whatsapp +923466319114
- // Usage And CopyRights Are Reserved
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
