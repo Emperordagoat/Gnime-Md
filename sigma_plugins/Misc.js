@@ -144,7 +144,7 @@ async(Void, citel, text,{ isCreator }) => {
             if (data.length === 0) return await citel.reply(`*_Sorry, But You don't have any Blocked Numbers._*`);
             let txt = `${name.ownername}'s *_Block List_*\n\n*_Total Blocked Users_: ${data.length}* \n\n┏━❏\t*𝘉𝘭𝘰𝘤𝘬𝘦𝘥 𝘕𝘶𝘮𝘣𝘦𝘳𝘴*━❏\n`;
             for (let i = 0; i < data.length; i++) {      txt += `⋫ ${i + 1}: wa.me/${data[i].split("@")[0]}\n`;    }
-            txt += "┗━━━━━━━━━━━⦿";
+            txt += "┗━━━━━━━━━━━❉";
             return await Void.sendMessage(citel.chat, { text: txt });
           } catch (err) {
             console.error(err);
@@ -251,14 +251,14 @@ async(sigma, person, memo) => {
 
     
     let Maher = `
-┏━━⟪⟪ ${mztit} ⟫━⦿
+┏━━〘 ${mztit} 〙━❉
 ⋫ *ᴘᴇʀsᴏɴ's ɪɴғᴏʀᴍᴀᴛɪᴏɴ*
 ⋫ *ɴᴀᴍᴇ* ${tname}
 ⋫ *ɴᴜᴍ* ${num}
 ⋫ *ʙɪᴏ*  ${bioo}
 ⋫ *sᴇᴛ-ᴀᴛ* ${setAt}
 ⋫   *ᴋᴇᴇᴘ ᴄᴀʟᴍ ᴅᴜᴅᴇ*
-┗━━━━━━━━━━⦿
+┗━━━━━━━━━━❉
 `
     let king = {            
     image: { url: pfp},
@@ -453,7 +453,7 @@ const vcard = 'BEGIN:VCARD\n' +
     async(sigma, person, memo) => {
         if (!memo) return person.reply(`*_Ex: ${prefix}fliptext I am SIGMA Male_*`)
         flipe = memo.split('').reverse().join('')
-        person.reply(`┏━━⟪⟪ ${mztit} ⟫━⦿\n⋫ \`\`\`  ᴛᴇxᴛ ғʟɪᴘᴘᴇʀ ᴛᴏᴏʟ   \`\`\`\n⋫ *ɢɪᴠᴇɴ ᴛᴇxᴛ*\n⋫ ${memo}\n⋫ *ғʟɪᴘᴇᴅ ᴛᴇxᴛ*\n⋫ ${flipe}\n┗━━━━━━━━━━⦿`)
+        person.reply(`┏━━〘 ${mztit} 〙━❉\n⋫ \`\`\`  ᴛᴇxᴛ ғʟɪᴘᴘᴇʀ ᴛᴏᴏʟ   \`\`\`\n⋫ *ɢɪᴠᴇɴ ᴛᴇxᴛ*\n⋫ ${memo}\n⋫ *ғʟɪᴘᴇᴅ ᴛᴇxᴛ*\n⋫ ${flipe}\n┗━━━━━━━━━━❉`)
     
     }
     )
