@@ -29,7 +29,7 @@ function _0x4452(){const _0x4d6d3f=['677LaFSql','7005UcSNyY','MONGODB_URI','allo
   promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'true' ,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'ᴠ.0.0.3',
-  LANG: process.env.THEME|| 'SIGMA_MD',
+  LANG: process.env.THEME|| 'GNIME',
   //menu : process.env.MENU || '', // Not Available in current Version
   WORKTYPE: process.env.WORKTYPE || 'public'
 };
