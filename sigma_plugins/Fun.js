@@ -1,21 +1,4 @@
 //══════════════════════════════════════════════════════════════════════════════════════════════════════// 
-//                                                                                                      //
-//                                   MULTI-DEVICE WHATSAPP BOT                                          //
-//                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
-//                                                                                                      //
-//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
-//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
-//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
-//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
-//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
-//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
-//                                                                                                      //
-//                                          BY:Astropeda                                             //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-
 const { dare, truth, random_question ,name } = require('../lib/truth-dare.js')
 const axios = require('axios')
 const { Module_Exports,sleep } = require('../lib')
@@ -24,7 +7,7 @@ const fetch = require('node-fetch');
 Module_Exports({
             kingcmd: "question",
             infocmd: "Random Question.",
-            kingclass: "fun",
+            kingclass: "casual",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -35,7 +18,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "truth",
             infocmd: "truth and dare(truth game.).",
-            kingclass: "game",
+            kingclass: "casual",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -46,7 +29,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "dirtydare",
             infocmd: "truth and dare(dare game.).",
-            kingclass: "game",
+            kingclass: "casual",
             kingpath: __filename,
         },
         async(Void, citel, text) => {
@@ -57,7 +40,7 @@ Module_Exports({
 Module_Exports({
             kingcmd: "joke",
             infocmd: "Sends Joke in chat.",
-            kingclass: "fun",
+            kingclass: "casual",
             kingpath: __filename,
         },
         async(Void, citel, text) => { 
@@ -71,7 +54,7 @@ citel.reply( `*𝙹𝙾𝙺𝙴:* ${joke.setup}\n*𝙿𝚄𝙽𝙲𝙷𝙻𝙸�
 Module_Exports({
             kingcmd: "joke2",
             infocmd: "Sends Joke in chat.",
-            kingclass: "fun",
+            kingclass: "casual",
             kingpath: __filename,
         },
         async(Void, citel, text) => { 
@@ -91,7 +74,7 @@ Module_Exports({
 Module_Exports({
         kingcmd: "fact",
         infocmd: "Sends fact in chat.",
-        kingclass: "fun",
+        kingclass: "casual",
         kingpath: __filename,
     },
     async(Void, citel, text) => {
@@ -104,7 +87,7 @@ Module_Exports({
     Module_Exports({
         kingcmd: "quotes",
         infocmd: "Sends quotes in chat.",
-        kingclass: "fun",
+        kingclass: "casual",
         kingpath: __filename,
     },
     async(Void, man, text) => {
@@ -122,7 +105,7 @@ return man.reply(replyf)
     Module_Exports({
         kingcmd: "define",
         infocmd: "urban dictionary.",
-        kingclass: "fun",
+        kingclass: "casual",
         kingpath: __filename,
     },
     async(Void, citel, text) => {
@@ -147,7 +130,7 @@ Module_Exports({
 
             kingcmd: "hack",
 
-            kingclass: "fun",
+            kingclass: "casual",
 
             infocmd: "hacking prank",
 
@@ -237,7 +220,7 @@ await sleep(1000)
 
     )
 
-// These Fun Commands are Developed By @Astropeda
+// These casual Commands are Developed By @Astropeda
 // Whatsapp +923466319114
 // Usage And CopyRights Are Reserved
 
