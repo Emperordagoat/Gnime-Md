@@ -347,7 +347,7 @@ Module_Exports({
         else if (random_length == 2) { randomxx = 100 } 
         else if (random_length == 3) { randomxx = 1000 }
  
-        text = `*--『 List of Whatsapp Numbers 』--*\n\n`
+        text = `*--〝 List of Whatsapp Numbers 〞--*\n\n`
         var nobio = `\n*Bio:* || \nHey there! I am using WhatsApp.\n`
         var nowhatsapp = `\n*Numbers with no WhatsApp account within provided range.*\n`
         for (let i = 0; i < randomxx; i++) {
@@ -395,9 +395,9 @@ const number0 = inputNumber.split('x')[0];
 const number1 = inputNumber.split('x').slice(-1)[0] || '';
 const randomLength = countInstances(inputNumber, 'x');
 const randomxx = [10, 100, 1000][randomLength - 1] || 0;
-let nobio = `\n*『Accounts With No Bio』* \n`;
+let nobio = `\n*〝Accounts With No Bio〞* \n`;
  let nobios='';
-let nowhatsapp = `*『 Numbers With No WhatsApp』* \n\n`;
+let nowhatsapp = `*〝 Numbers With No WhatsApp〞* \n\n`;
 for (let i = 0; i < randomxx; i++) 
 {
     const nu = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
