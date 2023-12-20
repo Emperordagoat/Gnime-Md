@@ -119,7 +119,7 @@
       let [_0x20e8d6, _0x393cfa] = new Date().toLocaleString("en-pk", {
         'timeZone': global.timezone
       }).split(',');
-      let _0x372184 = "┏━━〘 " + mztit + " 〙━━❉      \n⋫ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n⋫ *ᴏᴡɴᴇʀ* " + name.ownername + "\n⋫ *ᴘʀᴇғɪx* 『 *" + prefix + "* 』\n⋫ *ᴛʜᴇᴍᴇ* " + tlang().theme + "\n⋫ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n⋫ *ᴛɪᴍᴇ* " + _0x393cfa + "\n⋫ *ᴅᴀᴛᴇ* " + _0x20e8d6 + "\n⋫ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + '/' + formatp(os.totalmem()) + "\n⋫ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n⋫ *ᴘʟᴜɢɪɴs* " + _0x3442f9.length + "\n⋫ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n⋫ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n⋫ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n⋫ *ᴅᴇᴠ ᴀꜱᴛʀᴏᴘᴇᴅᴀ*\n┗━━━━━━━━━━━❉       \n\n" + sɪɢᴍᴀ_readmore + "\n";
+      let _0x372184 = "┏━━〘 " + mztit + " 〙━━❉      \n⋫ ᴏᴡɴᴇʀ " + name.ownername + "\n⋫ *ᴘʀᴇғɪx* 『 *" + prefix + "* 』\n⋫ *ᴛʜᴇᴍᴇ* " + tlang().theme + "\n⋫ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n⋫ *ᴛɪᴍᴇ* " + _0x393cfa + "\n⋫ *ᴅᴀᴛᴇ* " + _0x20e8d6 + "\n⋫ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + '/' + formatp(os.totalmem()) + "\n⋫ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n⋫ *ᴘʟᴜɢɪɴs* " + _0x3442f9.length + "\n⋫ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n⋫ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n⋫ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n┗━━━━━━━━━━━❉       \n\n" + sɪɢᴍᴀ_readmore + "\n";
       let _0x33ce6e = false;
       for (const _0x181790 in _0x4357a0) {
         _0x372184 += "┏━━『 " + tiny(_0x181790) + " 』━━❉\n";
@@ -137,7 +137,7 @@
           _0x372184 += "┗━━━━━━━━━━━❉\n";
         }
       }
-      _0x372184 += "ᴛʏᴘᴇ " + prefix + "ʜᴇʟᴘ ᴄᴍᴅ ɴᴀᴍᴇ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴄᴏᴍᴍᴀɴᴅ.\n*ᴇxᴀᴍᴘʟᴇ* " + prefix + "ʜᴇʟᴘ ʀᴇᴘᴏ\n*ɢɴɪᴍᴇ ᴍᴅ 2023*";
+      _0x372184 += "ᴛʏᴘᴇ " + prefix + "ʜᴇʟᴘ ᴄᴍᴅ ɴᴀᴍᴇ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴄᴏᴍᴍᴀɴᴅ.\n*ɢɴɪᴍᴇ ᴍᴅ 2023*";
       return await _0x3c2b7e.sendMessage(_0x4be39a.chat, {
         'image': {
           'url': await botpic()

@@ -76,7 +76,7 @@
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see when a new user joins a Group.",
-       "value": " @pp *_HI Dear @user_*\n*_Welcome In ♥️ @gname_*\n*_Read The Description CareFully_*\n\n\n*_Support Me By Subscribing_*\n*_https://www.youtube.com/@InnoxentTech_*",
+       "value": " @pp _HI Dear @user_\n_Welcome In ♥️ @gname_\n_Read The Description CareFully_\n\n\n_Support Me By Subscribing_\n_https://www.youtube.com/@InnoxentTech_",
        "required" :false
   },
   "MONGODB_URI": {
