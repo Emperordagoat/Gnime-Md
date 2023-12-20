@@ -54,7 +54,7 @@
 ## `𝘋𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵 𝘔𝘦𝘵𝘩𝘰𝘥𝘴`
 1. ***Star⭐ The Repository First***
 2. ***Click [`FORK`](https://github.com/Astropeda/Gnime-Md/fork)***
-3. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@SIGMA-Zubi/Gnime-Md-QR?v=1). `Whatapp>Three dots>Linked Devices`***
+3. ***Get SESSION ID  by [`Scanning QR Code`](https://replit.com/@SIGMA-Zubi/SIGMA-MD-QR?v=1). `Whatapp>Three dots>Linked Devices`***
 4. ***Get a Mongodb url From [`Mongodb,`](https://account.mongodb.com/)  Watch Tutorial  [`How To Get MongoDB Url`](https://youtu.be/HNj76uDT-uc?si=ObIoNZoP5gSZ8bSF).***
 5. ***Deploy on [`Heroku,`](https://mkk-eta.vercel.app/heroku.html)  Watch Tutorial 
  [`How To Deploy on Heroku`](https://youtu.be/7hhuzIkhVfE).***
@@ -73,15 +73,15 @@ mongodb+srv://Astropeda:Gnime-Md@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=ma
 ***Subscribe MY YouTube Channel***
 </p>
 <p align="left">
-  <a href="https://github.com/Astropeda/Gnime-M">
-    <img alt=Support height="90" src="https://telegra.ph/file/eb6347e2764939fbbd35d.png"> 
+  <a href="https://github.com/Astropeda/Gnime-Md">
+    <img alt=Support height="90" src="https://leadier-umbrellas.000webhostapp.com/Gnime-logos.jpeg"> 
   </p>
     
  ## ```𝘛𝘢𝘱 𝘈𝘯𝘺 𝘓𝘖𝘎𝘖 𝘛𝘰 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘔𝘦```
  <p align="centre">
-  <a href="mailto:HELP_Gnime-Md@outlook.com">
+  <a href="mailto:astromedia0010@outlook.com">
     <img src="https://i.ibb.co/Kx8NXxT/mail-gmail-22737.png" align="centre" width="90" />
-   <a href="https://wa.me/923466319114?text=Hi%20Astropeda%20Sir...%20I%20need%20some%20help%20in%20Gnime-Md">
+   <a href="https://wa.me/2349027862116?text=Hi%20Astropeda%20Sir...%20I%20need%20some%20help%20in%20Gnime-Md">
     <img src="https://i.ibb.co/2MLVZwm/whatsapp-logo-icon-181644.png" align="centre" width="90" />
 
 ##
@@ -91,9 +91,7 @@ mongodb+srv://Astropeda:Gnime-Md@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=ma
 - ***The [Gnime-Md](https://github.com/Astropeda/Gnime-Md) is Made Under The [`GPL-3 license`](https://github.com/Astropeda/Gnime-Md/blob/main/LICENCE).***
 
 ### `𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘛𝘩𝘢𝘯𝘬𝘴 𝘛𝘰`
-- ***[Suhail Tech Info](https://github.com/SuhailTechInfo)***
-- ***[Diegoson Tech](https://github.com/DiegosonTech)***
-- ***[Sam Pandey](https://github.com/SamPandey001)***
+- ***[Maher-Zubair](https://github.com/Maher-Zubair/)***
 ##
 ## ```𝘓𝘦𝘨𝘢𝘭 𝘋𝘪𝘴𝘤𝘭𝘢𝘪𝘮𝘦𝘳```
 - *I will only Assist You in Bot Deployment and Hosting, Not in Bot Development*
